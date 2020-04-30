@@ -497,7 +497,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   line-height: 1.75;
   color: #333;
   background: #fff;
@@ -519,7 +519,8 @@ h3, .c-number,
 h4,
 h5,
 h6 {
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+      "Lucida Grande", "Segoe UI";
   font-weight: 600;
 }
 
@@ -537,7 +538,6 @@ h2,
 h3, .c-number {
   font-size: 1.2rem;
   line-height: 1.45;
-  text-transform: uppercase;
 }
 
 a {
@@ -2129,7 +2129,8 @@ img[height] {
 
 .c-brand__title,
 .c-brand__sub-title {
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+      "Lucida Grande", "Segoe UI";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -2395,7 +2396,8 @@ img[height] {
 }
 
 .nivo-lightbox-theme-default .nivo-lightbox-title {
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+      "Lucida Grande", "Segoe UI";
   background: none;
 }
 

@@ -44,9 +44,7 @@ a,
 a:hover,
 a:focus,
 a:active,
-.t-link-container:hover .t-link-container__item {
-  color: #e0a707;
-}
+.t-link-container:hover .t-link-container__item {}
 
 /* Horizontal Rulers */
 hr,
@@ -82,7 +80,7 @@ hr,
 }
 
 .t-title__second-word {
-  color: #B1040E;
+  color: #1d1d1f;
 }
 
 .t-sub-title {
@@ -101,8 +99,11 @@ hr,
 }
 
 .t-title__second-word {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
+  font-size: 80px;
+  letter-spacing: -.015em;
+  line-height: 1.05;
 }
 
 .t-sub-title {
